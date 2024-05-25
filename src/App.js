@@ -1,8 +1,8 @@
 import logo from "./platzi.webp";
-import { TodoCounter } from "./TodoCounter";
-import { TodoFilter } from "./TodoFilter";
-import { TodoList } from "./TodoList";
-import { TodoItem } from "./TodoItem";
+import { TodoCounter } from "./todoCounter/TodoCounter";
+import { TodoFilter } from "./todoFilter/TodoFilter";
+import { TodoList } from "./todoList/TodoList";
+import { TodoItem } from "./todoItem/TodoItem";
 import { TodoButton } from "./todoButton/TodoButton";
 import React from "react";
 
