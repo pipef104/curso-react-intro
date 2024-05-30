@@ -1,9 +1,8 @@
 import "./TodoFilter.css";
 import React from "react";
 
-function TodoFilter(props) {
-  const [searchValue, setSearchValue] = React.useState("");
-  console.log('Los usuarios buscan TODO de:', searchValue);
+function TodoFilter( {searchValue,setSearchValue} ) {
+ 
   return (
     <input
       placeholder="Cortar cebolla"
